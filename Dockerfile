@@ -10,7 +10,7 @@ FROM scratch
 
 LABEL maintainer "Levent SAGIROGLU <LSagiroglu@gmail.com>"
 
-EXPOSE 8086 8088 
+EXPOSE 8086 8088 6060 8082 2003 25826 4242 8089
 ENV INFLUXDB_CONFIG_PATH /etc/influxdb.conf
 VOLUME /shared
 
